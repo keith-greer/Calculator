@@ -11,3 +11,7 @@ print("Subtraction result:", subtraction_result)
 print("Multiplication result", multiplication_result)
 print("Division result", division_result)
 print("finish") 
+
+print("\nChoose whether you want to add, subtract, multiply ir divide your numbers: ")
+for i, location in enumerate(character_styles, start=1):
+    print(f"{i}. {location}")
